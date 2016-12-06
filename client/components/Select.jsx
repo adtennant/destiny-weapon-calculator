@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react';
 
 export const Select = ({ id, selected, options, onChange }) => (
-    <select id={ id } selected={ selected } className="form-control" onChange={ e => onChange(e.target.value) }>
+    <select id={ id } value={ selected } className="form-control" onChange={ e => onChange(e.target.value) }>
         { options.map(option => <option key={ option.value } value={ option.value }>{ option.label }</option>) }
     </select>
 );
