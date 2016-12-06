@@ -1,0 +1,39 @@
+{
+    "extends": [ "plugin:react/recommended" ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "env": {
+        "browser": true,
+        "jquery": true,
+        "es6": true
+    },
+    "plugins": [ "react" ],
+    "rules": {
+        "jsx-quotes": [ "error", "prefer-double" ],
+        "no-multi-spaces": [ "error" ],
+        "react/jsx-curly-spacing": [ "error" , "always"],
+        "react/jsx-equals-spacing": [ "error" , "never"],
+        "react/jsx-filename-extension": [ "error" ],
+        "react/jsx-handler-names": [ "error" ],
+        "react/jsx-indent": [ "error" ],
+        "react/jsx-indent-props": [ "error" ],
+        "react/jsx-key": [ "error" ],
+        "react/jsx-no-target-blank": [ "error" ],
+        "react/jsx-pascal-case": [ "error" ],
+        "react/jsx-space-before-closing": [ "error", "never" ],
+        "react/no-multi-comp": [ "error" ],
+        "react/forbid-prop-types": [ "error" ],
+        "react/no-children-prop": [ "error" ],
+        "react/no-danger": [ "error" ],
+        "react/no-danger-with-children": [ "error" ],
+        "react/no-unused-prop-types": [ "error" ],
+        "react/prefer-es6-class": [ "error", "always" ],
+        "react/prefer-stateless-function": [ "error" ],
+        "react/self-closing-comp": [ "error" ],
+        "react/sort-comp": [ "error" ],
+        "react/style-prop-object": [ "error" ]
+    }
+}

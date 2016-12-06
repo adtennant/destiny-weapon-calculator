@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+const config = require('../config');
+const server = require('../server');
+require('debug')('app:bin:www');
+
+const port = config.server.port;
+server.listen(port);
